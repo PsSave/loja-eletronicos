@@ -18,6 +18,10 @@ html {
 body {
   margin: 1.5rem;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 
 body,
 input,
@@ -87,15 +91,6 @@ button:hover,
 button:focus {
   background: #ccc;
   outline: none;
-}
-
-button:active {
-  box-shadow: 0 0 0 3px var(--color), 0 0 0 4px var(--color);
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: wait;
 }
 
 hr {

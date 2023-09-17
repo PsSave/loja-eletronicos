@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './ranek.module.css'
 
 const Contato = () => {
   return (
