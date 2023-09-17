@@ -32,7 +32,7 @@ button {
 }
 
 .produto:hover {
-  background: #f3f3f3;
+  background: #eeeeee;
   border-radius: 8px;
 }
 
@@ -44,9 +44,10 @@ button {
   text-decoration: none;
 }
 .containerProduto {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
+  gap: 2rem;
 }
 .produtoInfo > span {
   background: rgb(184, 247, 90);
@@ -54,7 +55,12 @@ button {
   border-radius: 4px;
 }
 
+.fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .produtoSrc {
-  max-width: 23rem;
+  max-width: 30rem;
   border-radius: 8px;
 }
